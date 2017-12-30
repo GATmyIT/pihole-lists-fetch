@@ -53,4 +53,4 @@ while read line; do
   fi
 done <$file
 # Other
-date +"%c fetch completed" >> fetch_list_updates-run_log.log
+date +"%c fetch completed" >> output/run_log.log

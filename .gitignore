@@ -1,3 +1,4 @@
 # Ignore log files generated during testing and development
 \.DS_Store
 *.log
+\output\*

@@ -29,7 +29,7 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
+mkdir output
 verbose='false'
 linenum=1
 file=blacklist_lists.txt
@@ -53,4 +53,4 @@ while read line; do
   fi
 done <$file
 # Other
-date +"%c fetch completed" >> fetch_list_updates-run_log_workaround.log
+date +"%c fetch completed" >> output/run_log.log
